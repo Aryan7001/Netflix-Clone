@@ -1,0 +1,32 @@
+.player-main{
+   color: white;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-self:center;
+   justify-content: center;
+   padding: 20px 30px;
+   margin-left: 70px;
+}
+.player-main iframe{
+    border-radius: 10px;
+   
+}
+
+.arrow{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+}
+
+.video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}

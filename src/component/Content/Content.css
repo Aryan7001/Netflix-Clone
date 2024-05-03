@@ -1,0 +1,38 @@
+.content h2,p{
+    color: white;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}
+
+.content{
+    margin: 50px 20px;
+}
+.main p{
+    margin-bottom: 50px ;
+    font-weight: 800;
+    color: yellow;
+    font-size: 20px;
+}
+.main img{
+    width: 300px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.main .item{
+    position: relative;
+}
+
+.main .item p{
+    position: absolute;
+    left: 14vw;
+    bottom: 2px;
+}

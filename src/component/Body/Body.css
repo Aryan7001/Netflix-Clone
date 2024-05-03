@@ -1,0 +1,33 @@
+.caption p{
+    color: white;
+}
+.body-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.caption{
+    position: absolute;
+    top: 35vw;
+    left: 2vw;
+}
+.caption img{
+    width: 250px;
+}
+.caption p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.caption button{
+    padding: 12px 18px;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin: 0 10px;
+}
+
+.caption button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}

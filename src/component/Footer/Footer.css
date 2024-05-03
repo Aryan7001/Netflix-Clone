@@ -1,0 +1,29 @@
+.footer-text li{
+    color: white;
+}
+
+.footer-icon img{
+    width: 70px;
+    cursor: pointer;
+}
+
+.footer-main{
+    padding: 30px 50px;
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+
+.footer-icon{
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.footer-text ul { 
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 20px;
+list-style: none;
+margin-bottom: 30px;
+}
